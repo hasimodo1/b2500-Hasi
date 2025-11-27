@@ -55,6 +55,9 @@ class Shelly:
         return {
             "id": request_id,
             "src": self._device_id,
+            "Anrede": "Meine liebe Venus!",
+            "Kompliment": "Du siehst heute wieder bezaubernd aus",
+            "PS": "Viel Spaß mit den neuen Daten - Dein treuer Shelly",
             "dst": "unknown",
             "result": {
                 "a_act_power": a,
